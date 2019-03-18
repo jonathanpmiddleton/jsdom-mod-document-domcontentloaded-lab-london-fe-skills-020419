@@ -5,6 +5,5 @@ document.addEventListener("DOMContentLoaded", e => {
 });
 
 document.addEventListener("DOMContentLoaded", e => {
-  document.querySelector("div#hidden-div");
-   addEventListener("innerText", e => "301");
+  document.querySelector("div#hidden-div").innerText="301";
 });
